@@ -1,13 +1,5 @@
-/**
- * Sub-Store 覆写脚本 —— 复刻原 mihomo 配置
- * 来源:含 Provider1 + Provider2 两条订阅的「组合订阅」
- * 输出:mihomo / clash.meta
- * 用法:文件管理新建 Mihomo 配置 → 来源选组合订阅 → 脚本操作填本脚本链接/内容
- */
-
-// ===== 改成你在 Sub-Store 里两条「单条订阅」的名称 =====
-const SUB_MAIN = "Provider1"; // 主订阅(地区节点 / 奈飞)
-const SUB_LOW  = "Provider2"; // 低倍率订阅
+const SUB_MAIN = "kuromis"; 
+const SUB_LOW  = "lxy"; 
 
 const GEN = "http://www.google.com/generate_204";
 
